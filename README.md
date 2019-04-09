@@ -12,5 +12,7 @@ Additions include:
 - linting and whitespace removal turned off
 - random mappings and functions
 
-You shouldn't have to change anything if you just do: 
-```git clone https://github.com/arshanh/vim.git ~/.vim```
+To install:
+1. Make sure there is no .vimrc file in your home directory
+
+2. ```git clone https://github.com/arshanh/vim.git ~/.vim```

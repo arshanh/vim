@@ -30,7 +30,8 @@ map <leader>o :BufExplorer<cr>
 """"""""""""""""""""""""""""""
 let MRU_Max_Entries = 400
 map <leader>f :MRU<CR>
-
+" jump to last opened file
+map <leader>F :MRU<CR>j<CR>
 
 """"""""""""""""""""""""""""""
 " => YankStack
