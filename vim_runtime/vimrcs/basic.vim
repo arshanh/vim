@@ -123,6 +123,13 @@ if has("gui_macvim")
 endif
 
 
+" IF GETTING FOLLOWING ERROR:
+" E518: Unknown option: foldcolumn=1
+"
+" Add this to ~/.bash_profile
+" export EDITOR=vim
+" alias vi="vim"
+"
 " Add a bit extra margin to the left
 set foldcolumn=1
 
